@@ -41,25 +41,26 @@
             this.label6 = new System.Windows.Forms.Label();
             this.itemTimes = new System.Windows.Forms.TextBox();
             this.eventTypeGroup = new System.Windows.Forms.GroupBox();
-            this.eventRadio1 = new System.Windows.Forms.RadioButton();
-            this.eventRadio2 = new System.Windows.Forms.RadioButton();
-            this.eventRadio3 = new System.Windows.Forms.RadioButton();
-            this.eventRadio4 = new System.Windows.Forms.RadioButton();
             this.eventRadio5 = new System.Windows.Forms.RadioButton();
+            this.eventRadio4 = new System.Windows.Forms.RadioButton();
+            this.eventRadio3 = new System.Windows.Forms.RadioButton();
+            this.eventRadio2 = new System.Windows.Forms.RadioButton();
+            this.eventRadio1 = new System.Windows.Forms.RadioButton();
             this.protectGroup = new System.Windows.Forms.GroupBox();
-            this.protectRadio1 = new System.Windows.Forms.RadioButton();
-            this.protectRadio2 = new System.Windows.Forms.RadioButton();
             this.protectRadio3 = new System.Windows.Forms.RadioButton();
+            this.protectRadio2 = new System.Windows.Forms.RadioButton();
+            this.protectRadio1 = new System.Windows.Forms.RadioButton();
             this.mvpGroup = new System.Windows.Forms.GroupBox();
-            this.mvpRadio1 = new System.Windows.Forms.RadioButton();
-            this.mvpRadio2 = new System.Windows.Forms.RadioButton();
-            this.mvpRadio3 = new System.Windows.Forms.RadioButton();
             this.mvpRadio4 = new System.Windows.Forms.RadioButton();
+            this.mvpRadio3 = new System.Windows.Forms.RadioButton();
+            this.mvpRadio2 = new System.Windows.Forms.RadioButton();
+            this.mvpRadio1 = new System.Windows.Forms.RadioButton();
             this.pcRoomGroup = new System.Windows.Forms.GroupBox();
-            this.pcRoomRadio1 = new System.Windows.Forms.RadioButton();
             this.pcRoomRadio2 = new System.Windows.Forms.RadioButton();
+            this.pcRoomRadio1 = new System.Windows.Forms.RadioButton();
             this.startEnhance = new System.Windows.Forms.Button();
             this.resultLabel = new System.Windows.Forms.Label();
+            this.aboutLabel = new System.Windows.Forms.Label();
             this.eventTypeGroup.SuspendLayout();
             this.protectGroup.SuspendLayout();
             this.mvpGroup.SuspendLayout();
@@ -81,6 +82,7 @@
             this.itemLevel.Name = "itemLevel";
             this.itemLevel.Size = new System.Drawing.Size(100, 21);
             this.itemLevel.TabIndex = 1;
+            this.itemLevel.Text = "150";
             // 
             // label2
             // 
@@ -97,6 +99,7 @@
             this.catchBonus.Name = "catchBonus";
             this.catchBonus.Size = new System.Drawing.Size(100, 21);
             this.catchBonus.TabIndex = 3;
+            this.catchBonus.Text = "4.5";
             // 
             // label3
             // 
@@ -113,6 +116,7 @@
             this.itemCost.Name = "itemCost";
             this.itemCost.Size = new System.Drawing.Size(100, 21);
             this.itemCost.TabIndex = 5;
+            this.itemCost.Text = "0";
             // 
             // label4
             // 
@@ -129,6 +133,7 @@
             this.startingStar.Name = "startingStar";
             this.startingStar.Size = new System.Drawing.Size(100, 21);
             this.startingStar.TabIndex = 7;
+            this.startingStar.Text = "0";
             // 
             // label5
             // 
@@ -145,6 +150,7 @@
             this.tragetStar.Name = "tragetStar";
             this.tragetStar.Size = new System.Drawing.Size(100, 21);
             this.tragetStar.TabIndex = 9;
+            this.tragetStar.Text = "22";
             // 
             // label6
             // 
@@ -161,6 +167,7 @@
             this.itemTimes.Name = "itemTimes";
             this.itemTimes.Size = new System.Drawing.Size(100, 21);
             this.itemTimes.TabIndex = 11;
+            this.itemTimes.Text = "1000";
             // 
             // eventTypeGroup
             // 
@@ -176,37 +183,15 @@
             this.eventTypeGroup.TabStop = false;
             this.eventTypeGroup.Text = "이벤트";
             // 
-            // eventRadio1
+            // eventRadio5
             // 
-            this.eventRadio1.AutoSize = true;
-            this.eventRadio1.Checked = true;
-            this.eventRadio1.Location = new System.Drawing.Point(6, 20);
-            this.eventRadio1.Name = "eventRadio1";
-            this.eventRadio1.Size = new System.Drawing.Size(47, 16);
-            this.eventRadio1.TabIndex = 0;
-            this.eventRadio1.TabStop = true;
-            this.eventRadio1.Text = "없음";
-            this.eventRadio1.UseVisualStyleBackColor = true;
-            // 
-            // eventRadio2
-            // 
-            this.eventRadio2.AutoSize = true;
-            this.eventRadio2.Location = new System.Drawing.Point(6, 42);
-            this.eventRadio2.Name = "eventRadio2";
-            this.eventRadio2.Size = new System.Drawing.Size(73, 16);
-            this.eventRadio2.TabIndex = 1;
-            this.eventRadio2.Text = "30% 세일";
-            this.eventRadio2.UseVisualStyleBackColor = true;
-            // 
-            // eventRadio3
-            // 
-            this.eventRadio3.AutoSize = true;
-            this.eventRadio3.Location = new System.Drawing.Point(87, 20);
-            this.eventRadio3.Name = "eventRadio3";
-            this.eventRadio3.Size = new System.Drawing.Size(113, 16);
-            this.eventRadio3.TabIndex = 2;
-            this.eventRadio3.Text = "5, 10, 15성 100%";
-            this.eventRadio3.UseVisualStyleBackColor = true;
+            this.eventRadio5.AutoSize = true;
+            this.eventRadio5.Location = new System.Drawing.Point(6, 64);
+            this.eventRadio5.Name = "eventRadio5";
+            this.eventRadio5.Size = new System.Drawing.Size(110, 16);
+            this.eventRadio5.TabIndex = 4;
+            this.eventRadio5.Text = "무료 파방 (~15)";
+            this.eventRadio5.UseVisualStyleBackColor = true;
             // 
             // eventRadio4
             // 
@@ -218,15 +203,37 @@
             this.eventRadio4.Text = "1+1 강화";
             this.eventRadio4.UseVisualStyleBackColor = true;
             // 
-            // eventRadio5
+            // eventRadio3
             // 
-            this.eventRadio5.AutoSize = true;
-            this.eventRadio5.Location = new System.Drawing.Point(6, 64);
-            this.eventRadio5.Name = "eventRadio5";
-            this.eventRadio5.Size = new System.Drawing.Size(110, 16);
-            this.eventRadio5.TabIndex = 4;
-            this.eventRadio5.Text = "무료 파방 (~15)";
-            this.eventRadio5.UseVisualStyleBackColor = true;
+            this.eventRadio3.AutoSize = true;
+            this.eventRadio3.Location = new System.Drawing.Point(87, 20);
+            this.eventRadio3.Name = "eventRadio3";
+            this.eventRadio3.Size = new System.Drawing.Size(113, 16);
+            this.eventRadio3.TabIndex = 2;
+            this.eventRadio3.Text = "5, 10, 15성 100%";
+            this.eventRadio3.UseVisualStyleBackColor = true;
+            // 
+            // eventRadio2
+            // 
+            this.eventRadio2.AutoSize = true;
+            this.eventRadio2.Location = new System.Drawing.Point(6, 42);
+            this.eventRadio2.Name = "eventRadio2";
+            this.eventRadio2.Size = new System.Drawing.Size(73, 16);
+            this.eventRadio2.TabIndex = 1;
+            this.eventRadio2.Text = "30% 세일";
+            this.eventRadio2.UseVisualStyleBackColor = true;
+            // 
+            // eventRadio1
+            // 
+            this.eventRadio1.AutoSize = true;
+            this.eventRadio1.Checked = true;
+            this.eventRadio1.Location = new System.Drawing.Point(6, 20);
+            this.eventRadio1.Name = "eventRadio1";
+            this.eventRadio1.Size = new System.Drawing.Size(47, 16);
+            this.eventRadio1.TabIndex = 0;
+            this.eventRadio1.TabStop = true;
+            this.eventRadio1.Text = "없음";
+            this.eventRadio1.UseVisualStyleBackColor = true;
             // 
             // protectGroup
             // 
@@ -240,17 +247,15 @@
             this.protectGroup.TabStop = false;
             this.protectGroup.Text = "파괴방지 여부";
             // 
-            // protectRadio1
+            // protectRadio3
             // 
-            this.protectRadio1.AutoSize = true;
-            this.protectRadio1.Checked = true;
-            this.protectRadio1.Location = new System.Drawing.Point(6, 20);
-            this.protectRadio1.Name = "protectRadio1";
-            this.protectRadio1.Size = new System.Drawing.Size(47, 16);
-            this.protectRadio1.TabIndex = 0;
-            this.protectRadio1.TabStop = true;
-            this.protectRadio1.Text = "없음";
-            this.protectRadio1.UseVisualStyleBackColor = true;
+            this.protectRadio3.AutoSize = true;
+            this.protectRadio3.Location = new System.Drawing.Point(6, 64);
+            this.protectRadio3.Name = "protectRadio3";
+            this.protectRadio3.Size = new System.Drawing.Size(68, 16);
+            this.protectRadio3.TabIndex = 2;
+            this.protectRadio3.Text = "12~16성";
+            this.protectRadio3.UseVisualStyleBackColor = true;
             // 
             // protectRadio2
             // 
@@ -262,15 +267,17 @@
             this.protectRadio2.Text = "15~16성";
             this.protectRadio2.UseVisualStyleBackColor = true;
             // 
-            // protectRadio3
+            // protectRadio1
             // 
-            this.protectRadio3.AutoSize = true;
-            this.protectRadio3.Location = new System.Drawing.Point(6, 64);
-            this.protectRadio3.Name = "protectRadio3";
-            this.protectRadio3.Size = new System.Drawing.Size(68, 16);
-            this.protectRadio3.TabIndex = 2;
-            this.protectRadio3.Text = "12~16성";
-            this.protectRadio3.UseVisualStyleBackColor = true;
+            this.protectRadio1.AutoSize = true;
+            this.protectRadio1.Checked = true;
+            this.protectRadio1.Location = new System.Drawing.Point(6, 20);
+            this.protectRadio1.Name = "protectRadio1";
+            this.protectRadio1.Size = new System.Drawing.Size(47, 16);
+            this.protectRadio1.TabIndex = 0;
+            this.protectRadio1.TabStop = true;
+            this.protectRadio1.Text = "없음";
+            this.protectRadio1.UseVisualStyleBackColor = true;
             // 
             // mvpGroup
             // 
@@ -285,6 +292,36 @@
             this.mvpGroup.TabStop = false;
             this.mvpGroup.Text = "MVP";
             // 
+            // mvpRadio4
+            // 
+            this.mvpRadio4.AutoSize = true;
+            this.mvpRadio4.Location = new System.Drawing.Point(6, 86);
+            this.mvpRadio4.Name = "mvpRadio4";
+            this.mvpRadio4.Size = new System.Drawing.Size(59, 16);
+            this.mvpRadio4.TabIndex = 3;
+            this.mvpRadio4.Text = "다이아";
+            this.mvpRadio4.UseVisualStyleBackColor = true;
+            // 
+            // mvpRadio3
+            // 
+            this.mvpRadio3.AutoSize = true;
+            this.mvpRadio3.Location = new System.Drawing.Point(6, 64);
+            this.mvpRadio3.Name = "mvpRadio3";
+            this.mvpRadio3.Size = new System.Drawing.Size(47, 16);
+            this.mvpRadio3.TabIndex = 2;
+            this.mvpRadio3.Text = "골드";
+            this.mvpRadio3.UseVisualStyleBackColor = true;
+            // 
+            // mvpRadio2
+            // 
+            this.mvpRadio2.AutoSize = true;
+            this.mvpRadio2.Location = new System.Drawing.Point(6, 42);
+            this.mvpRadio2.Name = "mvpRadio2";
+            this.mvpRadio2.Size = new System.Drawing.Size(47, 16);
+            this.mvpRadio2.TabIndex = 1;
+            this.mvpRadio2.Text = "실버";
+            this.mvpRadio2.UseVisualStyleBackColor = true;
+            // 
             // mvpRadio1
             // 
             this.mvpRadio1.AutoSize = true;
@@ -297,36 +334,6 @@
             this.mvpRadio1.Text = "브론즈";
             this.mvpRadio1.UseVisualStyleBackColor = true;
             // 
-            // mvpRadio2
-            // 
-            this.mvpRadio2.AutoSize = true;
-            this.mvpRadio2.Location = new System.Drawing.Point(6, 42);
-            this.mvpRadio2.Name = "mvpRadio2";
-            this.mvpRadio2.Size = new System.Drawing.Size(47, 16);
-            this.mvpRadio2.TabIndex = 1;
-            this.mvpRadio2.Text = "실버";
-            this.mvpRadio2.UseVisualStyleBackColor = true;
-            // 
-            // mvpRadio3
-            // 
-            this.mvpRadio3.AutoSize = true;
-            this.mvpRadio3.Location = new System.Drawing.Point(6, 64);
-            this.mvpRadio3.Name = "mvpRadio3";
-            this.mvpRadio3.Size = new System.Drawing.Size(47, 16);
-            this.mvpRadio3.TabIndex = 2;
-            this.mvpRadio3.Text = "골드";
-            this.mvpRadio3.UseVisualStyleBackColor = true;
-            // 
-            // mvpRadio4
-            // 
-            this.mvpRadio4.AutoSize = true;
-            this.mvpRadio4.Location = new System.Drawing.Point(6, 86);
-            this.mvpRadio4.Name = "mvpRadio4";
-            this.mvpRadio4.Size = new System.Drawing.Size(59, 16);
-            this.mvpRadio4.TabIndex = 3;
-            this.mvpRadio4.Text = "다이아";
-            this.mvpRadio4.UseVisualStyleBackColor = true;
-            // 
             // pcRoomGroup
             // 
             this.pcRoomGroup.Controls.Add(this.pcRoomRadio2);
@@ -337,6 +344,16 @@
             this.pcRoomGroup.TabIndex = 14;
             this.pcRoomGroup.TabStop = false;
             this.pcRoomGroup.Text = "PC방";
+            // 
+            // pcRoomRadio2
+            // 
+            this.pcRoomRadio2.AutoSize = true;
+            this.pcRoomRadio2.Location = new System.Drawing.Point(3, 39);
+            this.pcRoomRadio2.Name = "pcRoomRadio2";
+            this.pcRoomRadio2.Size = new System.Drawing.Size(47, 16);
+            this.pcRoomRadio2.TabIndex = 1;
+            this.pcRoomRadio2.Text = "적용";
+            this.pcRoomRadio2.UseVisualStyleBackColor = true;
             // 
             // pcRoomRadio1
             // 
@@ -350,16 +367,6 @@
             this.pcRoomRadio1.Text = "미적용";
             this.pcRoomRadio1.UseVisualStyleBackColor = true;
             // 
-            // pcRoomRadio2
-            // 
-            this.pcRoomRadio2.AutoSize = true;
-            this.pcRoomRadio2.Location = new System.Drawing.Point(3, 39);
-            this.pcRoomRadio2.Name = "pcRoomRadio2";
-            this.pcRoomRadio2.Size = new System.Drawing.Size(47, 16);
-            this.pcRoomRadio2.TabIndex = 1;
-            this.pcRoomRadio2.Text = "적용";
-            this.pcRoomRadio2.UseVisualStyleBackColor = true;
-            // 
             // startEnhance
             // 
             this.startEnhance.Location = new System.Drawing.Point(331, 223);
@@ -368,6 +375,7 @@
             this.startEnhance.TabIndex = 15;
             this.startEnhance.Text = "강화시작";
             this.startEnhance.UseVisualStyleBackColor = true;
+            this.startEnhance.Click += new System.EventHandler(this.startEnhance_Click);
             // 
             // resultLabel
             // 
@@ -378,11 +386,21 @@
             this.resultLabel.TabIndex = 16;
             this.resultLabel.Text = "resultLabel";
             // 
+            // aboutLabel
+            // 
+            this.aboutLabel.AutoSize = true;
+            this.aboutLabel.Location = new System.Drawing.Point(12, 270);
+            this.aboutLabel.Name = "aboutLabel";
+            this.aboutLabel.Size = new System.Drawing.Size(241, 12);
+            this.aboutLabel.TabIndex = 17;
+            this.aboutLabel.Text = "MIT License Copyright (c) 2020 cheese98";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(743, 291);
+            this.Controls.Add(this.aboutLabel);
             this.Controls.Add(this.resultLabel);
             this.Controls.Add(this.startEnhance);
             this.Controls.Add(this.pcRoomGroup);
@@ -402,7 +420,7 @@
             this.Controls.Add(this.itemLevel);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "메이플스토리 스타포스 시뮬레이터";
             this.eventTypeGroup.ResumeLayout(false);
             this.eventTypeGroup.PerformLayout();
             this.protectGroup.ResumeLayout(false);
@@ -450,6 +468,7 @@
         private System.Windows.Forms.RadioButton pcRoomRadio1;
         private System.Windows.Forms.Button startEnhance;
         private System.Windows.Forms.Label resultLabel;
+        private System.Windows.Forms.Label aboutLabel;
     }
 }
 
