@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.startingStar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.tragetStar = new System.Windows.Forms.TextBox();
+            this.targetStar = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.itemTimes = new System.Windows.Forms.TextBox();
             this.eventTypeGroup = new System.Windows.Forms.GroupBox();
@@ -144,13 +144,13 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "목표 레벨";
             // 
-            // tragetStar
+            // targetStar
             // 
-            this.tragetStar.Location = new System.Drawing.Point(107, 196);
-            this.tragetStar.Name = "tragetStar";
-            this.tragetStar.Size = new System.Drawing.Size(100, 21);
-            this.tragetStar.TabIndex = 9;
-            this.tragetStar.Text = "22";
+            this.targetStar.Location = new System.Drawing.Point(107, 196);
+            this.targetStar.Name = "targetStar";
+            this.targetStar.Size = new System.Drawing.Size(100, 21);
+            this.targetStar.TabIndex = 9;
+            this.targetStar.Text = "22";
             // 
             // label6
             // 
@@ -409,7 +409,7 @@
             this.Controls.Add(this.eventTypeGroup);
             this.Controls.Add(this.itemTimes);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.tragetStar);
+            this.Controls.Add(this.targetStar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.startingStar);
             this.Controls.Add(this.label4);
@@ -445,7 +445,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox startingStar;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox tragetStar;
+        private System.Windows.Forms.TextBox targetStar;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox itemTimes;
         private System.Windows.Forms.GroupBox eventTypeGroup;
