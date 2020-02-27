@@ -21,9 +21,14 @@ namespace StarForceSimulator
         private void startEnhance_Click(object sender, EventArgs e)
         {
             Simulator sim = makeSimulator();
-
-            sim.makeGraph();
-            resultLabel.Text = sim.startSimulator();
+            try
+            {
+                resultLabel.Text = sim.startSimulator();
+            }
+            catch(Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("아이템의 강화 횟수가 2147483647번이 되는 바람에 강제 종료했습니다.");
+            }
         }
 
         private Simulator makeSimulator()
@@ -45,7 +50,7 @@ namespace StarForceSimulator
                 if (target < 0 || target > 25) throw new Exception(nameof(targetStar));
                 if (start >= target) throw new Exception(nameof(startingStar) + ", " +nameof(targetStar));
                 count = int.Parse(itemTimes.Text);
-                if (count < 1) throw new Exception(nameof(itemTimes));
+                if (count < 1 || count > 10000) throw new Exception(nameof(itemTimes));
                 eventtype = getEventType();
                 if (eventtype == -1) throw new Exception(nameof(eventTypeGroup));
                 prot = getProt();

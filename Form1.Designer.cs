@@ -348,7 +348,7 @@
             // pcRoomRadio2
             // 
             this.pcRoomRadio2.AutoSize = true;
-            this.pcRoomRadio2.Location = new System.Drawing.Point(3, 39);
+            this.pcRoomRadio2.Location = new System.Drawing.Point(6, 39);
             this.pcRoomRadio2.Name = "pcRoomRadio2";
             this.pcRoomRadio2.Size = new System.Drawing.Size(47, 16);
             this.pcRoomRadio2.TabIndex = 1;
@@ -359,7 +359,7 @@
             // 
             this.pcRoomRadio1.AutoSize = true;
             this.pcRoomRadio1.Checked = true;
-            this.pcRoomRadio1.Location = new System.Drawing.Point(3, 17);
+            this.pcRoomRadio1.Location = new System.Drawing.Point(6, 17);
             this.pcRoomRadio1.Name = "pcRoomRadio1";
             this.pcRoomRadio1.Size = new System.Drawing.Size(59, 16);
             this.pcRoomRadio1.TabIndex = 0;
